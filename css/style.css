@@ -60,13 +60,33 @@ section{
 
 ul{
     list-style-type: none;
+   
     
     
 }
 
-ul:before {
+/* ul:before {
 	content: '\00BB';
-}
+} */
+
+ .check {
+    padding-left: 2rem;
+    background-image: url(../img/vero.jpg);
+    background-position: 0 0;
+    background-size: 1.6rem 1.6rem;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+  }
+
+  .falso {
+    padding-left: 2rem;
+    background-image: url(../img/falso.jpg);
+    background-position: 0 0;
+    background-size: 1.6rem 1.6rem;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+  }
+
 
 li {
     margin: 30px;
