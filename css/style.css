@@ -9,7 +9,6 @@ body{
 }
 
 header{
-    height: 100%;
     padding: 15px 0% 0 5%;
     background-image: url(../img/Logo.png);
     background-repeat: no-repeat;
@@ -21,13 +20,10 @@ header h1{
     display: inline-block;
 }
 
-/* .color-marg{
-    background-color: rgb(180, 47, 47);
-} */
 
 .container {
-    width: 80%;
-    height: 80%;
+    width: 70%;
+    height: 100%;
     margin: 5% auto;
     background-color: white;
     /* border-style: solid; */
@@ -35,8 +31,8 @@ header h1{
 
 .marg{
     margin-left: 0%;
-    /* margin-bottom: 1px; */
     padding: 6px;
+    border-bottom-style: solid;
     
 }
 
@@ -55,12 +51,6 @@ a.bottone1 {
 
 }
    
-
-    
-     
-
-
-
 
 section{
     margin:0% 5%; 
