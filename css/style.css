@@ -36,21 +36,15 @@ header h1{
     
 }
 
-a.bottone1 {
-    margin-left: 30px;
-    color: white; 
-    text-decoration: none; /* eliminare la sottolineatura del testo */
-    background: dodgerblue; 
-    padding: 3px;
-    border-radius: 10px;
+.button1 {
+    display: inline-block;
+    background: dodgerblue;
+    width: 100px;
+    height: 100px;
+    padding: 20%;
+    border: 1px solid; 
 }
-  
-.button{
-    background: transparent;
-    border-style: solid;
-
-}
-   
+ 
 
 section{
     margin:0% 5%; 
