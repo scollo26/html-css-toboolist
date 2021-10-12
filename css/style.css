@@ -59,7 +59,13 @@ section{
 
 
 ul{
-    margin-bottom: 70px;
+    list-style-type: none;
+    
+    
+}
+
+ul:before {
+	content: '\00BB';
 }
 
 li {
