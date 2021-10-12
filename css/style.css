@@ -1,0 +1,108 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: lightgray;
+}
+
+header{
+    height: 100%;
+    padding: 15px 0% 0 5%;
+    background-image: url(../img/Logo.png);
+    background-repeat: no-repeat;
+    background-color: white;
+  
+}
+
+header h1{
+    display: inline-block;
+}
+
+/* .color-marg{
+    background-color: rgb(180, 47, 47);
+} */
+
+.container {
+    width: 80%;
+    height: 80%;
+    margin: 5% auto;
+    background-color: white;
+    /* border-style: solid; */
+}
+
+.marg{
+    margin-left: 0%;
+    /* margin-bottom: 1px; */
+    padding: 6px;
+    
+}
+
+a.bottone1 {
+    margin-left: 30px;
+    color: white; 
+    text-decoration: none; /* eliminare la sottolineatura del testo */
+    background: dodgerblue; 
+    padding: 3px;
+    border-radius: 10px;
+}
+  
+.button{
+    background: transparent;
+    border-style: solid;
+
+}
+   
+
+    
+     
+
+
+
+
+section{
+    margin:0% 5%; 
+}
+
+ul{
+    margin-bottom: 70px;
+}
+
+li {
+    margin: 30px;
+}
+
+.robot{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+
+/* inizioradius */
+.radius{
+    border-radius: 30%;
+    padding: 5px 10px 5px 10px;
+}
+
+.blu{
+    background-color: dodgerblue;
+}
+
+.viola{
+    background-color: indigo;
+}
+
+.verde{
+    background-color: forestgreen;
+}
+.orange{
+    background-color: coral;
+}
+.rosa{
+    background-color: violet;
+}
+.verdec{
+    background-color: yellowgreen;
+}
