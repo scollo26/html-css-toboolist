@@ -27,10 +27,8 @@ header h1{
     margin: 5% auto;
 }
 
-.marg{
-    
+.marg{   
     padding: 5px;
-    /* border-bottom-style: solid; */
     background-color: white;
     
 }
@@ -66,10 +64,7 @@ ul{
 }
 
 li.robot:before {
-  content: '\21E9'; 
-  
-
-   
+  content: '\21E9';  
 }
 
  .check {
@@ -78,7 +73,6 @@ li.robot:before {
     background-position: 0 0;
     background-size: 1.6rem 1.6rem;
     background-repeat: no-repeat;
-    vertical-align: middle;
   }
 
   .falso {
