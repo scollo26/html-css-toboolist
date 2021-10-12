@@ -65,9 +65,13 @@ ul{
     
 }
 
-/* ul:before {
-	content: '\00BB';
-} */
+li.robot:before {
+	/* content: '\00BB';
+    line-height: 0px; */
+
+  content: '\21E9';  	
+   
+}
 
  .check {
     padding-left: 2rem;
