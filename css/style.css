@@ -8,101 +8,127 @@ body{
     background-color: lightgray;
 }
 
-header{
-    padding: 15px 0% 0 5%;
-    background-image: url(../img/Logo.png);
+header{  
     background-repeat: no-repeat;
     background-color: white;
+    line-height:80%;
+    padding: 0% 2%;
+    vertical-align: middle;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
   
 }
 
 header h1{
-    margin-left: 0%;
+    display: inline-block;
+    margin-left: 2%;
+    margin-bottom: 3%;
+    font-size: 3em;
+    /* vertical-align: middle; */
+    
+}
+
+.logo{
+    vertical-align: middle;
+
+}
+
+.text-logo{
+    height: 20%;
+    margin: auto;
+    vertical-align: middle;
 }
 
 
-.container {
+main {
     width: 50%;
-    height: 100%;
-    margin: 5% auto;
+    margin: 2em auto;
+    background-color: white;
+    border-radius: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  .container{
+    padding: 0px;
+    margin-left: 10%;
+    height: auto;
+
 }
 
 .marg{   
-    padding: 5px;
-    background-color: white;
-    
+    padding: 10px 20px;
+    border-bottom: 2px solid lightgrey;
 }
 
 .button1 {
     display: inline-block;
+    padding: 1%;
+    border: 1px solid;
+    vertical-align: middle;
+    border-radius: 0.3rem;
     color: white;
     background: dodgerblue;
-    padding: 1%;
-    border: 1px solid; 
+    margin-left: 8%;
+     
 }
 
 .button2 {
     display: inline-block;
     padding: 1%;
-    border: 1px solid; 
+    vertical-align: middle;
+    border-radius: 0.3rem;
+    border: 1px solid lightgrey; 
     color: rgba(0, 0, 0, 0.5);
-}
- 
-
-section{
-    margin-top: 1%;
-    background-color: white;
+    
 }
 
 
-
-ul{
+.pallini{
     list-style-type: none;
-   
-    
-    
+       
 }
 
-li.robot:before {
-  content: '\21E9';  
+
+ h2{
+    display: inline-block;
+    vertical-align: middle;
 }
 
  .check {
-    padding-left: 2rem;
-    background-image: url(../img/vero.jpg);
-    background-position: 0 0;
-    background-size: 1.6rem 1.6rem;
-    background-repeat: no-repeat;
+    display: inline-block;
+    border: 1px solid green;
+    border-radius: 50%;
+    width: 1.5em;
+    height: 1.5em;
+    line-height: 1.5em;
+    text-align: center;
+    margin-right: 1%;
+    color: green;
+   
   }
 
   .falso {
-    padding-left: 2rem;
-    background-image: url(../img/falso.jpg);
-    background-position: 0 0;
-    background-size: 1.6rem 1.6rem;
-    background-repeat: no-repeat;
-    vertical-align: middle;
-  }
+      color: red;
+      border-color: red;
+}
 
 
 li {
-    margin: 30px;
-    height: 50px;
-    line-height: 50px;
+    margin: 30px 0px 10px 0px;
+    height: 30px;
+    line-height: 30px;
 }
 
 
-.robot{
-    font-family: 'Roboto', sans-serif;
-    font-size: 20px;
-    margin: 0%;
-}
 
 
 /* inizioradius */
 .radius{
-    border-radius: 35%;
-    padding: 5px 10px 5px 10px;
+    display: inline-block;
+    padding: 0em 0.8em;
+    border-radius: 2em;
+    color: white;
+    /* background-color: 
+    #14AAF5; */
 }
 
 .blu{
